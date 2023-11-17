@@ -3,34 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Html tables and list Assignment</title>
-    <link rel="icon" href="./favicon/icons8-favicon-94.png" alt="a blue favicon image">
+    <title>Assignment 2</title>
+    <link rel="icon" href="./favicon/icons8-favicon-94.png">
 </head>
 <body>
-    <table border="2">
-        <caption><b>Time Table</b></caption>
+    <table border="1">
+        <caption>Time-Table Assignment</caption>
         <thead>
             <tr>
-                <th>Hours</th>
+                <th colspan="6"><strong>Time Table</strong></th>
+            <tr>
+                <th></th>
                 <th>Mon</th>
                 <th>Tue</th>
-                <th>wed</th>
+                <th>Wed</th>
                 <th>Thu</th>
                 <th>Fri</th>
             </tr>
         </thead>
-        
+
         <tbody>
             <tr>
-                <td></td>
+                <td rowspan="5"><strong>Hours</strong></td>
                 <td>Science</td>
                 <td>Maths</td>
                 <td>Science</td>
                 <td>Maths</td>
-                <td>Arts</td>
+                <td>Fri</td>
             </tr>
             <tr>
-                <td></td>
                 <td>Social</td>
                 <td>History</td>
                 <td>English</td>
@@ -38,39 +39,38 @@
                 <td>Sports</td>
             </tr>
             <tr>
-                <td></td>
-                <td colspan="5" style="text-align: center;">Lunch</td>
+                <td colspan="5" style="text-align: center;"><strong>Lunch</strong></td>
             </tr>
             <tr>
-                <td></td>
                 <td>Science</td>
                 <td>Maths</td>
                 <td>Science</td>
                 <td>Maths</td>
-                <td rowspan="2">Project</td>
+                <td rowspan="2">
+                    project
+                    <ul type="square">
+                        <li>Paper Mache</li>
+                        <li>Capstone</li>
+                        <li>Tie and dye</li>
+                        <li>Mosaic</li>
+                    </ul>
+                </td>
             </tr>
             <tr>
-                <td></td>
                 <td>Social</td>
-                <td>History</td>
+                <td>
+                    History
+                    <ol type="a">
+                        <li>World war I</li>
+                        <li>World war II</li>
+                        <li>World war III</li>
+
+                    </ol>
+                </td>
                 <td>English</td>
                 <td>Social</td>
             </tr>
         </tbody>
     </table>
-    <p><h2>Project</h2></p>
-    <ul style="list-style-type: square;">
-        <li>Mobile app development</li>
-        <li>Capstone project</li>
-        <li>Mouse Trap Construction Project</li>
-        <li>Paper Mache Project</li>
-    </ul>
-    <p><h2>History</h2></p>
-    <ol type="a">
-        <li>World War I</li>
-        <li>World War II</li>
-        <li>World War III</li>
-    </ol>
-
 </body>
 </html>
