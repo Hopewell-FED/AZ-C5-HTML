@@ -7,18 +7,50 @@
     <link rel="icon" href="./favicon/icons8-favicon-94.png">
 </head>
 <body>
-    <h1>HTML FORMS ASSIGNMENT</h1>
-    <form action="process_form.py" method="get" target="_blank">
-        <input type="text" value="name"> name
-        <input type="number">
-        <br />
-        <input type="radio" name="gender"> male
-        <br />
-        <input type="radio" name="gender"> female
-        <br />
-        <input type="checkbox" name="reading"> Reading
-        <br />
-        <input type="submit" >
-    </form>
+    <h1>Basic User Information</h1>
+    <label for="First">First Name</label>
+    <input type="text" id="First" name="First Name" required>
+    <p></p>
+    <label for="Last">Last Name</label>
+    <input type="text" id="Last" name="Last Name" required>
+    <p></p>
+    <label for="email">Email address</label>
+    <input type="email" id="email" name="email" required>
+    <p></p>
+    <label for="age">Age</label>
+    <input type="number" id="age" name="age" required>
+    <p></p>
+    <label for="phone">Phone Number</label>
+    <input type="tel" name="phone number" id="phone">
+    <p></p>
+    <label for="DOB">Date of Birth</label>
+    <input type="date" name="DOB" id="DOB">
+    <p></p>
+    <label for="country">Country of Residence</label>
+    <select id="country">
+        <option val="NIG">Nigeria</option>
+        <option value="GH" selected>Ghana</option>
+        <option value="RW">Rwanda</option>
+        <option value="KEN">kenya</option>
+        <option value="SA">South Africa</option>
+    </select>
+    <p></p>
+    <fieldset>
+        <legend>User's Interests</legend>
+        <label>Gender</label>
+        <input type="radio" name="gender">Male
+        <input type="radio" name="gender">Female
+        <p></p>
+        <label>Hobbies</label>
+        <input type="checkbox" name="sports">Sports
+        <input type="checkbox" name="reading">Reading
+        <input type="checkbox" name="Music">Music
+        <input type="checkbox" name="travel">Travel
+    </fieldset>
+    <p></p>
+    <label for="message">Comments</label>
+    <textarea id="message"></textarea>
+    <p></p>
+    <input type="submit" value="save">
 </body>
 </html>
